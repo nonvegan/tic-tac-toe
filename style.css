@@ -1,0 +1,86 @@
+body {
+    background-color: #353238;
+    color: #c1b4ae;
+}
+
+header {
+    background-color: #92140c;
+}
+
+#board {
+    width: 32vw;
+    height: 32vw;
+    overflow: auto;
+    background-color: #92140c;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#result {
+    width: 32vw;
+    height: 6vw;
+    border-radius: 10px;
+    margin: 2vw auto 2vw auto;
+    background-color: #92140c;
+}
+
+#footer {
+    width: 32vw;
+    height: 6vw;
+    border-radius: 10px;
+    margin: 2vw auto 0vw auto;
+    background-color: #353238;
+}
+
+#result .half {
+    width: 12vw;
+    height: 4vw;
+    background-color: #353238;
+    margin: 1vw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#footer .half {
+    width: 12vw;
+    height: 4vw;
+    background-color: #92140c;
+    margin: 0vw auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#result .half h5,
+#footer .half h5 {
+    font-size: 2.7vw;
+    margin-top: 0vw;
+}
+
+#board ul {
+    margin: 0 0 0 2vw;
+    padding: 0;
+    border: 0;
+}
+
+#board li {
+    width: 8vw;
+    height: 8vw;
+    float: left;
+    margin: 2vw 2vw 0 0;
+    border-radius: 10px;
+    list-style: none;
+    background-color: #be7c4d;
+    color: #c1b4ae;
+}
+
+#board .tick {
+    font-size: 5.3vw;
+    padding: 0;
+    text-align: center;
+}
+
+#board li:hover,
+#footer .half:hover {
+    cursor: pointer;
+    opacity: .75;
+}
