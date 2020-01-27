@@ -1,17 +1,17 @@
 body {
-    background-color: #353238;
-    color: #c1b4ae;
+    background-color: #2a2a2e;
+    color: white
 }
 
 header {
-    background-color: #92140c;
+    background-color: #ff6188;
 }
 
 #board {
     width: 32vw;
     height: 32vw;
     overflow: auto;
-    background-color: #92140c;
+    background-color: #ff6188;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -21,7 +21,7 @@ header {
     height: 6vw;
     border-radius: 10px;
     margin: 2vw auto 2vw auto;
-    background-color: #92140c;
+    background-color: #ff6188;
 }
 
 #footer {
@@ -29,13 +29,13 @@ header {
     height: 6vw;
     border-radius: 10px;
     margin: 2vw auto 0vw auto;
-    background-color: #353238;
+    background-color: #2a2a2e;
 }
 
 #result .half {
     width: 12vw;
     height: 4vw;
-    background-color: #353238;
+    background-color: #2a2a2e;
     margin: 1vw;
     border-radius: 10px;
     text-align: center;
@@ -44,7 +44,7 @@ header {
 #footer .half {
     width: 12vw;
     height: 4vw;
-    background-color: #92140c;
+    background-color: #ff6188;
     margin: 0vw auto;
     border-radius: 10px;
     text-align: center;
@@ -69,8 +69,8 @@ header {
     margin: 2vw 2vw 0 0;
     border-radius: 10px;
     list-style: none;
-    background-color: #be7c4d;
-    color: #c1b4ae;
+    background-color: #ab9df2;
+    color: white;
 }
 
 #board .tick {
